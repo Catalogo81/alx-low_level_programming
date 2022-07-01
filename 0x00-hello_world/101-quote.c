@@ -3,9 +3,7 @@
 
 /**
  * main - Entry point 
- * prints out "and that piece of art is useful"
- * -Dora Korpar, 2015-10-19",
- *  _a new line_ to the standar error,
+ * 
  * Return: Always 1 (Success)
  */
 int main(void)
