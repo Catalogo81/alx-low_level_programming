@@ -4,9 +4,9 @@
 
 /**
  * main - Entry point
- * 	variable n declared
- * 	variable n will change everytime the program is ran
- * 	then if statement will check if n is negative, positive or 0
+ * variable n declared
+ * variable n will change everytime the program is ran
+ * then if statement will check if n is negative, positive or 0
  *
  * Return: Always 0 (Success)
  */
