@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  * variable c is declared of type char
- * for loop iterates the numbers of base 16 and another for the hexadecimal string
+ * for loop iterates the numbers of base 16 
+ * another for the hexadecimal string
  *
  * Return: Always 0 (Success)
  */
