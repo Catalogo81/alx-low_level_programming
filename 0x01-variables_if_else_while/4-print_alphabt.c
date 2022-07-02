@@ -6,7 +6,7 @@
  * the for loop is responsible for printing the alphabets
  * the if statement is responsivle for excluding letters q and e
  *
- * Reaturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
