@@ -3,9 +3,9 @@
 /**
  * print_putchar - prints _putchar and new line
  *
- * Reaturn: void
+ * Reaturn: 0
  */
-void print_putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,4 +16,6 @@ void print_putchar(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
+	return (0);
 }
