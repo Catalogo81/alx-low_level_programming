@@ -11,9 +11,7 @@ int _isalpha(int c)
 	if (c >= 'a' && c <= 'z')
 	{
 		if (c >= 'A' && c <= 'Z')
-		{
 			return (1);
-		}
 	}
 	else
 	{
@@ -21,6 +19,5 @@ int _isalpha(int c)
 	}
 
 	_putchar('\n');
-
 
 }
