@@ -2,7 +2,8 @@
 
 /**
  * print_last_digit -  prints the last digit of a number
- * @z: represents the last digit
+ * @lstDigit: represents the last digit
+ * @x: represents the number
  *
  * Returns: the last digit
  */
@@ -15,6 +16,6 @@ int print_last_digit(int x)
 
 	lstDigit = x % 10;
 	_putchar('0' + lstDigit);
+	return (lstDigit);
 	_putchar('\n');
-	return (0);
 }
