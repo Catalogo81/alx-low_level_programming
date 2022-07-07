@@ -23,7 +23,7 @@ int main(void)
 			n = n / divNumber;
 			if (n == 1)
 			{
-				printf("%d", largestFact);
+				printf("%ld", largestFact);
 				result = 1;
 				break;
 			}
