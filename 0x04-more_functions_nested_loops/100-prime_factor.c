@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main -  finds and prints the largest prime factor of the number 612852475143
+ * main -  finds and prints the largest prime factor of a number
  *
  * Return: 0 (Succes)
  */
 int main(void)
 {
-	long int n, i;
+	long n, i;
 
 	n = 612852475143;
 
@@ -18,7 +18,7 @@ int main(void)
 			n = n / i;
 		}
 	}
-	printf("%ld", i);
+	printf("%lu", i);
 	_putchar('\n');
 	return (0);
 }
