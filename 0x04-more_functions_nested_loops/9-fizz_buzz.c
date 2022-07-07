@@ -25,7 +25,7 @@ int main(void)
 		{
 			_putchar('B');
 			_putchar('u');
-			_putcahr('z');
+			_putchar('z');
 			_putchar('z');
 		}
 		else if (i == 100)
@@ -38,7 +38,7 @@ int main(void)
 		}
 		else
 		{
-			_putchar("%d", i);
+			printf("%d", i);
 		}
 	}
 	printf("\n");
