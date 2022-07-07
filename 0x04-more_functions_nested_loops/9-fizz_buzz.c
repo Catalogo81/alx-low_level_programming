@@ -23,7 +23,7 @@ int main(void)
 		}
 		else if	(i % 5 == 0)
 		{
-			_putchar('b');
+			_putchar('B');
 			_putchar('u');
 			_putcahr('z');
 			_putchar('z');
