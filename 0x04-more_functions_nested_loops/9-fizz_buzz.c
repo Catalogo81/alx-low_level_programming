@@ -21,7 +21,7 @@ int main(void)
 		}
 		else if	(i % 5 == 0)
 		{
-			_putchar("Buzz");
+			printf("Buzz");
 		}
 		else if (i == 100)
 		{
