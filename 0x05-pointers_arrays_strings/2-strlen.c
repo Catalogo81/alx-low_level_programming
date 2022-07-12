@@ -16,6 +16,5 @@ int _strlen(char *s)
 		length += 1;
 		*s = *s + 1;
 	}
-	_putchar('\n');
 	return (length);
 }
