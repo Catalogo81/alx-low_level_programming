@@ -8,7 +8,7 @@
  */
 int _atoi(char *s)
 {
-	int cnvNum = 0;
+	unsigned int cnvNum = 0;
 	int sign = 1;
 
 	do {
@@ -18,7 +18,7 @@ int _atoi(char *s)
 			break;
 		else if (*s >= '0' && *s <= '9')
 			cnvNum = (cnvNum * 10) + (*s - '0');
-	} while (s++);
+	} while (*s++);
 
 	return (cnvNum * sign);
 }
