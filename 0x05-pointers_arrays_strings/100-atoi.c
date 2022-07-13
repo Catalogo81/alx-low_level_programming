@@ -14,10 +14,10 @@ int _atoi(char *s)
 	do {
 		if (*s == '-')
 			sign *= -1;
-		else if (cnvNum > 0)
-			break;
 		else if (*s >= '0' && *s <= '9')
 			cnvNum = (cnvNum * 10) + (*s - '0');
+		else if (cnvNum > 0)
+			break;
 	} while (*s++);
 
 	return (cnvNum * sign);
