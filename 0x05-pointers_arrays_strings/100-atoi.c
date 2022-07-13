@@ -17,7 +17,7 @@ int _atoi(char *s)
 		else if (cnvNum > 0)
 			break;
 		else if (*s >= '0' && *s <= '9')
-			cnvNum = (cnvNum * 10) + (s[i] - '0');
+			cnvNum = (cnvNum * 10) + (*s - '0');
 	} while (s++);
 
 	return (cnvNum * sign);
