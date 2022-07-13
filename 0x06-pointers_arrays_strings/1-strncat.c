@@ -10,6 +10,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	strncat(*dest, *src, n);
+	strncat(dest, src, n);
 	return (dest);
 }
