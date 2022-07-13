@@ -9,16 +9,11 @@
 int _atoi(char *s)
 {
 	int i, cnvNum = 0;
-	int sign = 1;
 
-	if (*s == '-')
-		sign *= -1;
-	else if (cnvNum > 0)
-		break;
 	for (i = 0; arr[i] != '\0'; ++i)
 	{
 		cnvNum = (cnvNum * 10) + (arr[i] - '0');
 	}
 
-	return (cnvNum * sign);
+	return (cnvNum);
 }
