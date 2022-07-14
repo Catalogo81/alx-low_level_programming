@@ -2,13 +2,14 @@
 #include <string.h>
 
 /**
- * *_strcat - a function that concatenates two strings
+ * *_strncat - a function that concatenates two strings
  * @dest: is the destination variable
  * @src: is the source cariable
+ * @n: number parameter
  *
  * Return: a pointer of string dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	strncat(dest, src, n);
 	return (dest);
