@@ -3,7 +3,6 @@
 /**
  * print_chessboard -  prints the chessboard
  * @a: char alphabets
- * @8: size
  *
  * Return: void
  */
