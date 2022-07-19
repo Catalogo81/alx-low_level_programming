@@ -2,9 +2,9 @@
 
 /**
  * *_memcpy - a function that copies memory area
- * dest: destination variable
- * src: source variable
- * n: number variable
+ * @dest: destination variable
+ * @src: source variable
+ * @n: number variable
  *
  * Return: a pointer to dest
  */
