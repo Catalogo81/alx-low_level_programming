@@ -9,19 +9,20 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i = 0, j, k = 0;
+	unsigned int i = 0, j, k = 0, byte = 0;
 
 	while (accept[i])
 	{
 		j = 0;
+		byte = 32;
 
-		while (s[j] != 32)
+		while (s[j] != byte)
 		{
 			if (accept[i] == s[j])
 			{
 				k++;
 			}
-			j++
+			j++;
 		}
 		i++;
 	}
