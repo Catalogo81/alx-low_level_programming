@@ -9,7 +9,7 @@
  */
 int frst_pal(char *str, int length)
 {
-	int (*str == 0)
+	if (*str == 0)
 		return (length - 1);
 	return (frst_pal(str + 1, length + 1));
 }
