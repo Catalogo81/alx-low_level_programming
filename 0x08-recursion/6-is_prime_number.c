@@ -15,11 +15,11 @@ int is_prime_number(int n)
 /**
  * prime_checker - checks prime numbers
  * @n: the number variable
- * @n: the iterator variable
+ * @i: the iterator variable
  *
  * Return: 1 or 0
  */
-int prime_checker(int n)
+int prime_checker(int n, int i)
 {
 	if (n <= 1)
 		return (0);
