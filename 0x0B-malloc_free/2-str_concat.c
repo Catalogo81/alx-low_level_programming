@@ -27,10 +27,10 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	length = i + j;
-	if (str == NULL)
-		return (NULL);
 	str = (char *)malloc(length * sizeof(char) + 1);
 	j = 0;
+	if (str == NULL)
+		return (NULL);
 	while (k < length)
 	{
 		if (k < i)
