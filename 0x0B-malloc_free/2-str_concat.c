@@ -27,15 +27,17 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	length = i + j;
+	if (str == NULL)
+		return (NULL);
 	str = (char *)malloc(length * sizeof(char) + 1);
-	k = 0;
+	j = 0;
 	while (k < length)
 	{
-		if (k <= i)
+		if (k < i)
 		{
 			str[k] = s1[k];
 		}
-		if (k > i)
+		if (k >= i)
 		{
 			str[k] = s2[j];
 			j++;
