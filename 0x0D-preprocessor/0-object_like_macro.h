@@ -1,5 +1,5 @@
-#ifndef _HEADER_
-#define _HEADER_
+#ifndef _OLM_H
+#define _OLM_H
 
 #define SIZE 1024
 
