@@ -14,9 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list v_list;
 
 	if (separator == NULL)
-		printf("");
+		s_ = "";
 	else if (*separator  == 0)
-		printf("");
+		s_ ="";
 	else
 		s_ = (char *) separator;
 	va_start(v_list, n);
