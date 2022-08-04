@@ -35,10 +35,10 @@ int main(int argc, char *argv[])
 
 		if (i == bytes - 1)
 			continue;
-		pint(" ");
+		printf(" ");
 		adr++;
 	}
-	print('\n');
+	printf('\n');
 	return (0);
 }
 
