@@ -17,11 +17,11 @@ void print_all(const char * const format, ...)
 
 	while (format && format[index])
 		index++;
+	s_ = ", ";
 	while (format && format[num])
 	{
 		if (num  == (index - 1))
 			s_ = "";
-		s_ = ", ";
 		switch (format[num])
 		{
 			case 'c':
